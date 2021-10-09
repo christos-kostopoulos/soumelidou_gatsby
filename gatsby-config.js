@@ -4,6 +4,7 @@ module.exports = {
     description: `Ψυχολόγος MSc, Ψυχοδυναμική Ψυχοθεραπεύτρια Αναλύτρια Ομάδας, Ζεύγους & Οικογένειας`,
     author: `@gatsbyjs`,
     image: `/logo_background.jpg`,
+    baseUrl: 'https://elenisoumelidou.gr'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

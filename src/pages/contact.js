@@ -9,7 +9,7 @@ import HeroText from "../components/heroText";
 const Contact = () => {
   return (
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO title="Επικοινωνία" keywords={[`gatsby`, `application`, `react`]} />
       <StaticQuery
         query={graphql`
           query {

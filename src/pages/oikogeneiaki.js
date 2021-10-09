@@ -9,7 +9,7 @@ import BackgroundImage from "gatsby-background-image";
 const Index = ({ className }) => {
   return (
     <Layout>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO title="Οικογενειακή ψυχοθεραπεία" keywords={[`οκογένεια`, `κοινωνικό σύστημα`, `ομάδα`]} />
       <StaticQuery
         query={graphql`
           query {
