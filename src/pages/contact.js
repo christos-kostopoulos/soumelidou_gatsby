@@ -35,7 +35,7 @@ const Contact = () => {
       <div style={{ backgroundColor: "white" }}>
         <div class="container main-content" style={{ maxWidth: "1440px" }}>
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-4">
               <div className="contact-info">
                 <h5 style={{ marginBottom: "36px" }}>
                   Επικοινωνήστε μέσω email, τηλεφώνου, ή στείλτε ένα μήνυμα μέσω
@@ -87,13 +87,14 @@ const Contact = () => {
                     <div style={{ fontSize: "16px" }}>Διεύθυνση </div>
                   </div>
                   <p>
-                    Οδυσσέως Ανδρούτσου 29, Κουκάκι 117 41 - Δίπλα στο σταθμό
+                    Οδυσσέως Ανδρούτσου 29, <br/>Κουκάκι 117 41 <br />
+                     Δίπλα στο σταθμό
                     Φιξ του μετρό
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-8">
               <h5 style={{ marginBottom: "36px" }}>Φόρμα επικοινωνίας</h5>
               <ContactForm />
             </div>
