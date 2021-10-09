@@ -14,7 +14,7 @@ const ContactForm = () => {
           </div>
         </div>
         <textarea name="message" placeholder="Μηνυμα" rows="4" />
-        <button type="submit" value="Αποστολή" />
+        <button className="button" type="submit"  >Αποστολή </button>
       </form>
     </div>
   );
