@@ -26,11 +26,11 @@ const NavBar = () => {
                  Ατομική ψυχοθεραπεία
               </Link>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link className="nav-link" to="/omadiki">
                 Ομαδική ψυχοθεραπεία
               </Link>
-            </li> */}
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/oikogeneiaki">
                 Οικογενειακή ψυχοθεραπεία
@@ -40,6 +40,9 @@ const NavBar = () => {
               <Link className="nav-link" to="/zeugous">
                 Ψυχοθεραπεία ζεύγους
               </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link">Συμβουλευτική γονέων</Link>
             </li>
           </ul>
         </li>
