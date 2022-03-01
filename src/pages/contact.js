@@ -9,7 +9,10 @@ import HeroText from "../components/heroText";
 const Contact = () => {
   return (
     <Layout>
-      <SEO title="Επικοινωνία" keywords={[`επικοινωνία`, `email`, `τηλέφωνο`]} />
+      <SEO
+        title="Επικοινωνία"
+        keywords={[`επικοινωνία`, `email`, `τηλέφωνο`]}
+      />
       <StaticQuery
         query={graphql`
           query {
@@ -87,9 +90,7 @@ const Contact = () => {
                     <div style={{ fontSize: "16px" }}>Διεύθυνση </div>
                   </div>
                   <p>
-                  2ας Μαΐου 10, <br/> Νέα Σμύρνη 171 22. <br />
-                     Δίπλα στο σταθμό
-                    Φιξ του μετρό
+                    2ας Μαΐου 10, <br /> Νέα Σμύρνη 171 22.
                   </p>
                 </div>
               </div>
