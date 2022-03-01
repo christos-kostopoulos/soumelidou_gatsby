@@ -8,9 +8,11 @@ const Footer = () => (
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <div style={{ display: "flex", height: "100%", alignItems: "center"}}>
+            <div
+              style={{ display: "flex", height: "100%", alignItems: "center" }}
+            >
               <div className="material-icons contact-info-icons">home</div>
-              <p> Οδυσσέως Ανδρούτσου 29, Κουκάκι</p>
+              <p> 2ας Μαΐου 10,, Νέα Σμύρνη </p>
             </div>
           </div>
           <div className="col-md-6">
@@ -19,19 +21,22 @@ const Footer = () => (
                 display: "flex",
                 justifyContent: "center",
                 marginBottom: "14px",
-                height: "100%", alignItems: "center"
+                height: "100%",
+                alignItems: "center",
               }}
             >
               <div className="material-icons contact-info-icons">email</div>
               <a className="email" href="mailto: esoumel@gmail.com ">
                 esoumel@gmail.com
               </a>
-              <div className="material-icons contact-info-icons" style={{marginLeft: "12px"}}>
+              <div
+                className="material-icons contact-info-icons"
+                style={{ marginLeft: "12px" }}
+              >
                 perm_phone_msg
               </div>
               <p>6942 83 93 91</p>
             </div>
-           
           </div>
         </div>
       </div>
