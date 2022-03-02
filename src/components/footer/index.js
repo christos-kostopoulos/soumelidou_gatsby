@@ -12,7 +12,7 @@ const Footer = () => (
               style={{ display: "flex", height: "100%", alignItems: "center" }}
             >
               <div className="material-icons contact-info-icons">home</div>
-              <p> 2ας Μαΐου 10, Νέα Σμύρνη </p>
+              <p> 2ας Μαΐου 10, Νέα Σμύρνη 17121</p>
             </div>
           </div>
           <div className="col-md-6">
