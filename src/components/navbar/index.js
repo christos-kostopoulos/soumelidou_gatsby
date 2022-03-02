@@ -42,7 +42,9 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link">Συμβουλευτική γονέων</Link>
+              <Link className="nav-link" to="/symvouleutiki">
+                Συμβουλευτική γονέων
+              </Link>
             </li>
           </ul>
         </li>
