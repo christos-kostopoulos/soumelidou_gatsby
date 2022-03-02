@@ -37,7 +37,7 @@ const About = () => {
         className="container main-content"
         style={{ marginTop: "52px", zIndex: "100", position: "relative" }}
       >
-        <h5> Ελένη Σουμελίδου</h5>
+        <h4> Ελένη Σουμελίδου</h4>
         <h5 style={{ marginBottom: "24px" }}>
           Ψυχολόγος MSc, Ψυχοδυναμική Ψυχοθεραπεύτρια - Αναλύτρια Ομάδας,
           Ζεύγους & Οικογένειας
