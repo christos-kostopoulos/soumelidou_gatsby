@@ -71,7 +71,7 @@ const About = () => {
           παιδιου προσχολικής ηλικίας.
         </p>
         <p style={{ marginTop: "24px" }}>
-          Είναι μέλος του Mέλος του British Psychological society (BPS) και του
+          Είναι μέλος του British Psychological society (BPS) και του
           Canterbury Consortium of Psychoanalytic and Psychodynamic
           Psychotherapists (CCOPPP). Επίσης, είναι πρόσεδρο μέλος της Ελληνικής
           Εταιρείας Αναλυτικής Ομαδικής και Οικογενειακής Ψυχοθεραπείας.
