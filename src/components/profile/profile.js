@@ -19,7 +19,7 @@ const Profile = () => {
       render={(data) => (
         <Img
           fluid={data.placeholderImage.childImageSharp.fluid}
-          style={{ height: "200px" }}
+          style={{ height: "100%", width: "100%"}}
         />
       )}
     />

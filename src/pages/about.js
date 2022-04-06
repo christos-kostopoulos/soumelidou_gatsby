@@ -41,7 +41,7 @@ const About = () => {
         style={{ marginTop: "52px", zIndex: "100", position: "relative" }}
       >
         <div className="row">
-          <div class="col-md-8">
+          <div class="col-md-10">
             <h4> Ελένη Σουμελίδου</h4>
             <h5 style={{ marginBottom: "24px" }}>
               Ψυχολόγος MSc, Ψυχοδυναμική Ψυχοθεραπεύτρια - Αναλύτρια Ομάδας,
@@ -56,7 +56,7 @@ const About = () => {
               σπουδές (MSc in Psychotherapy studies).
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-2">
             <Profile />
           </div>
         </div>
