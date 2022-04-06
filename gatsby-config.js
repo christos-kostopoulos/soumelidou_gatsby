@@ -36,6 +36,14 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
+      {
+        resolve: `gatsby-plugin-google-gtag`,
+        options: {
+          // You can add multiple tracking ids and a pageview event will be fired for all of them.
+          trackingIds: [
+            "UA-223056340-1", // Google Analytics / GA
+          ],
+        },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
