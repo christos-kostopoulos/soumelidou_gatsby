@@ -45,6 +45,9 @@ module.exports = {
           "UA-223056340-1", // Google Analytics / GA
         ],
       },
+      pluginConfig: {
+        // Puts tracking script in the head instead of the body
+        head: true,
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
